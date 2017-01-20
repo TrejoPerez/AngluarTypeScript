@@ -1,0 +1,40 @@
+{
+  "name": "angular-ts-starter-kit",  
+  "version": "1.0.8",
+  "description": "AngularJS + TypeScript Starter Kit", 
+  "author": "Tomasz Waraksa",
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "typescript"
+  ],
+  "scripts": {
+     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/agilisconsultinglimited/angular-ts-starter-kit.git"
+  },
+  "homepage": "https://bitbucket.org/agilisconsultinglimited/angular-ts-starter-kit",
+  "bugs": "https://bitbucket.org/agilisconsultinglimited/angular-ts-starter-kit/issues",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "typescript": "^1.0",
+    "karma": "^0.12.24",
+    "karma-jasmine": "^0.1.5",
+    "karma-coverage": "^0.2.6",
+    "bootstrap": "^3.3.6"
+  },
+  
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/node": "^6.0.45",
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3"
+  }
+  
+}
