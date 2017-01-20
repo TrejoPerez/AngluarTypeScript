@@ -1,8 +1,8 @@
 {
-  "name": "angular-ts-starter-kit",  
+  "name": "angular-typescript",  
   "version": "1.0.8",
-  "description": "AngularJS + TypeScript Starter Kit", 
-  "author": "Tomasz Waraksa",
+  "description": "Plantilla AngularJS + TypeScript", 
+  "author": "Trejo",
   "license": "ISC",
   "keywords": [
     "angular",
