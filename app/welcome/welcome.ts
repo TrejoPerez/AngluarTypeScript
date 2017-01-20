@@ -5,13 +5,13 @@ namespace AngularTypeScriptStarterKit {
     // UI logic for <welcome> component
     class WelcomeController {        
         constructor() {
-            this.Text = "Welcome to AngularJS + TypeScript Starter Kit!";
+            this.Text = "Hola AngularJS + TypeScript ";
         }     
 
         public Text:String;
 
         public confirm() {
-            this.Text = "It is awesome!";
+            this.Text = "Esto funciona";
         }
     }
 
